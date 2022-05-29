@@ -1,0 +1,12 @@
+header {
+    background: #cfeaff;
+}
+
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    height: 60px;
+}
