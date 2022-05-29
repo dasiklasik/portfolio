@@ -9,3 +9,16 @@
   width: 100%;
   margin: 0 auto;
 }
+
+@media (max-width: 1250px) {
+  .wrapper {
+    max-width: 900px;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .wrapper {
+    max-width: 90%;
+  }
+}

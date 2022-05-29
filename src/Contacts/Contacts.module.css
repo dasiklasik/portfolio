@@ -1,0 +1,34 @@
+.block {
+    background: #ebffe3;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.block h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.flexWrapper {
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.contactItem {
+    width: 100px;
+    height: 100px;
+    background: gray;
+}
+
+@media (max-width: 991px) {
+    .flexWrapper {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .contactItem {
+        margin: 10px;
+    }
+}

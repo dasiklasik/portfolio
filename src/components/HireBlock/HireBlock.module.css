@@ -1,0 +1,18 @@
+.block {
+    background: #fffeec;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+
+.link {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px 20px;
+    background: lightgray;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    margin: 40px auto 0 ;
+}

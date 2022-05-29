@@ -1,0 +1,44 @@
+.item {
+    width: 400px;
+    background: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.item h3 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.imageWrapper {
+    width: 100%;
+    height: 200px;
+    background: gray;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+.link {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px 20px;
+    background: lightgray;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 991px) {
+    .item {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .item {
+        width: 320px;
+    }
+}

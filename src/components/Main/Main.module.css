@@ -19,3 +19,29 @@
     height: 300px;
     background: gray;
 }
+
+@media (max-width: 991px) {
+    .info {
+        font-size: 30px;
+    }
+
+    .image {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .image {
+        margin-top: 30px ;
+    }
+
+    .main {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+}
