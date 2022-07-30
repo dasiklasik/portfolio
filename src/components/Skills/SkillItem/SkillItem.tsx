@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './SkillItem.module.css'
+import styles from './SkillItem.module.scss'
 
 type SkillItemPropsType = {
     data: { image: string, title: string, description: string }

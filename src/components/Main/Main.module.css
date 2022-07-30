@@ -1,5 +1,5 @@
 .main {
-    background: #ffdee9;
+    background: #e4e4e6;
     padding-top: 100px;
     padding-bottom: 150px;
 }
@@ -12,6 +12,14 @@
 
 .info {
     font-size: 40px;
+}
+
+.info h1 {
+    font-weight: 900;
+}
+
+.info h1 span {
+    color: #FD4766;
 }
 
 .image {

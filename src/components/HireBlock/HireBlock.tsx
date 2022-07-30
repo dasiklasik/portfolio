@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './HireBlock.module.css'
-import '../../App.css'
+import '../../App.scss'
 
 export const HireBlock = () => {
     return (

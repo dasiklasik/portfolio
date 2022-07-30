@@ -1,11 +1,11 @@
 import React from "react";
-import '../../App.css'
+import '../../App.scss'
 import styles from './Projects.module.css'
 import {ProjectItem} from "./ProjectItem/ProjectItem";
 
 export const Projects = () => {
     return (
-        <div className={styles.projects}>
+        <div id={'works'} className={styles.projects}>
             <div className={'wrapper'}>
                 <h2>Мои работы</h2>
                 <div className={styles.flexWrapper}>
