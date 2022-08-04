@@ -4,15 +4,15 @@
   text-align: center;
   padding: 20px 0;
   margin: 10px;
+}
 
-  h3 {
-    margin-top: 20px;
-    margin-bottom: 30px;
-  }
+.item h3 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 
-  .icon {
-    width: 50px;
-  }
+.item .icon {
+  width: 50px;
 }
 
 @media (max-width: 1250px) {

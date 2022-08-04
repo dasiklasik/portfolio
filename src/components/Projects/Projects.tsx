@@ -1,5 +1,5 @@
 import React from "react";
-import '../../App.scss'
+import '../../App.css'
 import styles from './Projects.module.css'
 import {ProjectItem} from "./ProjectItem/ProjectItem";
 

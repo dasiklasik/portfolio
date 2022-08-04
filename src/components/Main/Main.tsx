@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './Main.module.css'
-import '../../App.scss'
+import '../../App.css'
 
 export const Main = () => {
     return (

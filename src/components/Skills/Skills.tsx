@@ -1,6 +1,6 @@
 import React from "react";
-import styles from './Skills.module.scss'
-import '../../App.scss'
+import styles from './Skills.module.css'
+import '../../App.css'
 import {SkillItem} from "./SkillItem/SkillItem";
 import reactImage from '../../attached/react.svg'
 import htmlImage from '../../attached/html5.svg'

@@ -1,0 +1,22 @@
+header {
+  background: #e4e4e6;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  height: 100px;
+}
+
+header ul li a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header ul li a:hover {
+  color: #FD4766;
+}
