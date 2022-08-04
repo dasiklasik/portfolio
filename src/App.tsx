@@ -5,7 +5,7 @@ import {Main} from "./components/Main/Main";
 import {Projects} from './components/Projects/Projects';
 import {Skills} from "./components/Skills/Skills";
 import {HireBlock} from "./components/HireBlock/HireBlock";
-import {Contacts} from "./Contacts/Contacts";
+import {Contacts} from "./components/Contacts/Contacts";
 
 function App() {
     return (

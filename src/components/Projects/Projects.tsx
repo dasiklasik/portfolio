@@ -2,15 +2,20 @@ import React from "react";
 import '../../App.css'
 import styles from './Projects.module.css'
 import {ProjectItem} from "./ProjectItem/ProjectItem";
+import {ProjectsData} from "../../data/projectsData";
+
 
 export const Projects = () => {
     return (
         <div id={'works'} className={styles.projects}>
             <div className={'wrapper'}>
-                <h2>Мои работы</h2>
+                <h2>My works</h2>
                 <div className={styles.flexWrapper}>
-                    <ProjectItem data={{image: '', title: 'project', description: 'description', link: ''}}/>
-                    <ProjectItem data={{image: '', title: 'project', description: 'description', link: ''}}/>
+                    {
+                        ProjectsData.map(pr => {
+                            return <ProjectItem data={pr}/>
+                        })
+                    }
                 </div>
             </div>
         </div>

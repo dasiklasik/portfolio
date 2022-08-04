@@ -5,11 +5,6 @@
   padding-bottom: 120px;
 }
 
-.skills h2 {
-  margin-bottom: 50px;
-  font-size: 50px;
-}
-
 .skills .flexWrapper {
   display: flex;
   justify-content: space-between;

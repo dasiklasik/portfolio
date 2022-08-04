@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './Contacts.module.css'
-import '../App.css'
+import '../../App.css'
 
 export const Contacts = () => {
     return (
