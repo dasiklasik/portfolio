@@ -18,6 +18,7 @@ export const ProjectItem = (props: ProjectItemPropsType) => {
                <p className={styles.description}>{data.description}</p>
                <a className={styles.link} href={data.link}>Show more</a>
            </div>
+            <a href={data.link} className={styles.transparentLink}></a>
         </div>
     )
 }
