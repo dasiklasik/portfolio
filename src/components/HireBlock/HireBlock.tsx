@@ -7,7 +7,7 @@ export const HireBlock = () => {
         <div className={styles.block}>
             <div className={'wrapper'}>
                 <h2>I'm considering remote work options</h2>
-                <a href={''} className={styles.link}>Нанять меня</a>
+                <a href={''} className={styles.link}>Hire me</a>
             </div>
         </div>
     )
