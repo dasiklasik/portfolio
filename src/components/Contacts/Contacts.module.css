@@ -1,5 +1,5 @@
 .block {
-    background: #ebffe3;
+    background: #000;
     padding-top: 60px;
     padding-bottom: 100px;
 }
@@ -7,19 +7,27 @@
 .block h2 {
     text-align: center;
     margin-bottom: 40px;
+    color: #fff;
 }
 
-.flexWrapper {
+.flexWrapper ul {
     display: flex;
     width: 800px;
     justify-content: space-around;
     margin: 0 auto;
+    list-style-type: none;
 }
 
-.contactItem {
-    width: 100px;
-    height: 100px;
-    background: gray;
+.flexWrapper ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    transition: color 0.2s;
+}
+
+.flexWrapper ul a:hover {
+    color: #fd4766;
 }
 
 @media (max-width: 991px) {
